@@ -4,7 +4,7 @@ import joblib
 from langgraph.graph import StateGraph, START, END
 
 # ------------------------------------------------------------------
-#  Load artefacts you saved with train_and_eval.py
+#  Load artefacts saved with train_and_eval.py
 # ------------------------------------------------------------------
 ROOT = Path(__file__).parent               # folder where this file lives
 vectorizer = joblib.load(ROOT / "tfidf_vectorizer.pkl")
